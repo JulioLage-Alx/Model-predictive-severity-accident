@@ -1,3 +1,140 @@
+# Projeto de Análise de Dados e Criação de Modelo de Previsão
+
+Bem-vindo ao projeto de Análise de Dados e Criação de Modelo de Previsão! Este repositório contém todo o código, dados e documentação necessários para entender, executar e expandir as análises e previsões realizadas.
+
+## Sumário
+
+- [Descrição](#descrição)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Dados](#dados)
+- [Modelos](#modelos)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
+## Descrição
+
+Este projeto foi desenvolvido para analisar um conjunto de dados específico e construir um modelo preditivo baseado nesses dados. O objetivo é fornecer insights úteis e previsões que possam ajudar na tomada de decisões.
+
+## Estrutura do Projeto
+
+A estrutura de diretórios do projeto é a seguinte:
+
+```
+.
+├── data
+│   ├── raw                # Dados brutos não processados
+│   ├── processed          # Dados processados e prontos para análise
+├── notebooks              # Notebooks Jupyter para análise exploratória
+├── scripts
+│   ├── data_processing.py # Script para processamento de dados
+│   ├── model_training.py  # Script para treinamento do modelo
+│   ├── model_evaluation.py# Script para avaliação do modelo
+├── models                 # Modelos treinados e suas versões
+├── results                # Resultados de análises e previsões
+├── requirements.txt       # Dependências do projeto
+└── README.md              # Documentação do projeto
+```
+
+## Instalação
+
+Para instalar e executar este projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/JulioLage-Alx/Model-predictive-severity-accident
+   ```
+
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd Model-predictive-severity-accident
+   ```
+
+3. Crie um ambiente virtual:
+   ```bash
+   python -m venv venv
+   ```
+
+4. Ative o ambiente virtual:
+   - No Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - No Unix ou MacOS:
+     ```bash
+     source venv/bin/activate
+     ```
+
+5. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Uso
+
+### Processamento de Dados
+
+Para processar os dados brutos, utilize o script `data_processing.py`:
+
+```bash
+python scripts/data_processing.py
+```
+
+### Treinamento do Modelo
+
+Para treinar o modelo, utilize o script `model_training.py`:
+
+```bash
+python scripts/model_training.py
+```
+
+### Avaliação do Modelo
+
+Para avaliar o desempenho do modelo, utilize o script `model_evaluation.py`:
+
+```bash
+python scripts/model_evaluation.py
+```
+
+### Notebooks Jupyter
+
+Você também pode explorar os dados e executar análises nos notebooks Jupyter disponíveis na pasta `notebooks`. Para iniciar o Jupyter Notebook, utilize:
+
+```bash
+jupyter notebook
+```
+
+## Dados
+
+Os dados utilizados neste projeto estão localizados na pasta `data`. Os dados brutos devem ser colocados na pasta `raw`, enquanto os dados processados estarão na pasta `processed` após a execução dos scripts de processamento.
+
+## Modelos
+
+Os modelos treinados são salvos na pasta `models`. Cada modelo é versionado e armazenado para possíveis comparações e melhorias futuras.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor, siga os passos abaixo:
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua feature ou correção de bug (`git checkout -b feature/nova-feature`).
+3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Envie para o branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Esperamos que este projeto seja útil e que você possa aprender e contribuir com ele. Se você tiver alguma dúvida, sinta-se à vontade para abrir uma issue ou entrar em contato.
+
+Boas análises e boas previsões!
+
+
+
 # DICIONARIO DE DADOS
 
 ## Descrição:
