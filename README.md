@@ -1,186 +1,166 @@
-# Projeto de Análise de Dados e Criação de Modelo de Previsão
+# Data Analysis and Prediction Model Project
 
-Bem-vindo ao projeto de Análise de Dados e Criação de Modelo de Previsão! Este repositório contém todo o código, dados e documentação necessários para entender, executar e expandir as análises e previsões realizadas.
+Welcome to the Data Analysis and Prediction Model Project! This repository contains all the code, data, and documentation needed to understand, execute, and expand the analyses and predictions performed.
 
-## Sumário
+## Table of Contents
 
-- [Descrição](#descrição)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Dados](#dados)
-- [Modelos](#modelos)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [Description](#description)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data](#data)
+- [Models](#models)
+- [Contribution](#contribution)
+- [License](#license)
+- [Data Dictionary](#data-dictionary)
 
-## Descrição
+## Description
 
-Este projeto foi desenvolvido para analisar um conjunto de dados específico e construir um modelo preditivo baseado nesses dados. O objetivo é fornecer insights úteis e previsões que possam ajudar na tomada de decisões.
+This project was developed to analyze a specific dataset and build a predictive model based on that data. The goal is to provide useful insights and predictions that can aid in decision-making.
 
-## Estrutura do Projeto
+## Project Structure
 
-A estrutura de diretórios do projeto é a seguinte:
+The project directory structure is as follows:
 
 ```
 .
 ├── data
-│   ├── raw                # Dados brutos não processados
-│   ├── processed          # Dados processados e prontos para análise
-├── notebooks              # Notebooks Jupyter para análise exploratória
+│   ├── raw                # Raw, unprocessed data
+│   ├── processed          # Processed data ready for analysis
+├── notebooks              # Jupyter notebooks for exploratory analysis
 ├── scripts
-│   ├── data_processing.py # Script para processamento de dados
-│   ├── model_training.py  # Script para treinamento do modelo
-│   ├── model_evaluation.py# Script para avaliação do modelo
-├── models                 # Modelos treinados e suas versões
-├── results                # Resultados de análises e previsões
-├── requirements.txt       # Dependências do projeto
-└── README.md              # Documentação do projeto
+│   ├── data_processing.py # Script for data processing
+│   ├── model_training.py  # Script for model training
+│   ├── model_evaluation.py# Script for model evaluation
+├── models                 # Trained models and their versions
+├── results                # Analysis and prediction results
+├── requirements.txt       # Project dependencies
+└── README.md              # Project documentation
 ```
 
-## Instalação
+## Installation
 
-Para instalar e executar este projeto localmente, siga os passos abaixo:
+To install and run this project locally, follow the steps below:
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/JulioLage-Alx/Model-predictive-severity-accident
    ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
    ```bash
    cd Model-predictive-severity-accident
    ```
 
-3. Crie um ambiente virtual:
+3. Create a virtual environment:
    ```bash
    python -m venv venv
    ```
 
-4. Ative o ambiente virtual:
-   - No Windows:
+4. Activate the virtual environment:
+   - On Windows:
      ```bash
      venv\Scripts\activate
      ```
-   - No Unix ou MacOS:
+   - On Unix or MacOS:
      ```bash
      source venv/bin/activate
      ```
 
-5. Instale as dependências:
+5. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Uso
+## Usage
 
-### Processamento de Dados
+### Data Processing
 
-Para processar os dados brutos, utilize o script `data_processing.py`:
+To process the raw data, use the `data_processing.py` script:
 
 ```bash
 python scripts/data_processing.py
 ```
 
-### Treinamento do Modelo
+### Model Training
 
-Para treinar o modelo, utilize o script `model_training.py`:
+To train the model, use the `model_training.py` script:
 
 ```bash
 python scripts/model_training.py
 ```
 
-### Avaliação do Modelo
+### Model Evaluation
 
-Para avaliar o desempenho do modelo, utilize o script `model_evaluation.py`:
+To evaluate the model's performance, use the `model_evaluation.py` script:
 
 ```bash
 python scripts/model_evaluation.py
 ```
 
-### Notebooks Jupyter
+### Jupyter Notebooks
 
-Você também pode explorar os dados e executar análises nos notebooks Jupyter disponíveis na pasta `notebooks`. Para iniciar o Jupyter Notebook, utilize:
+You can also explore the data and perform analyses in the Jupyter notebooks available in the `notebooks` folder. To start the Jupyter Notebook, use:
 
 ```bash
 jupyter notebook
 ```
 
-## Dados
+## Data
 
-Os dados utilizados neste projeto estão localizados na pasta `data`. Os dados brutos devem ser colocados na pasta `raw`, enquanto os dados processados estarão na pasta `processed` após a execução dos scripts de processamento.
+The data used in this project is located in the `data` folder. Raw data should be placed in the `raw` folder, while processed data will be in the `processed` folder after running the processing scripts.
 
-## Modelos
+## Models
 
-Os modelos treinados são salvos na pasta `models`. Cada modelo é versionado e armazenado para possíveis comparações e melhorias futuras.
+Trained models are saved in the `models` folder. Each model is versioned and stored for future comparisons and improvements.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você deseja contribuir com este projeto, por favor, siga os passos abaixo:
+Contributions are welcome! If you wish to contribute to this project, please follow the steps below:
 
-1. Faça um fork deste repositório.
-2. Crie uma branch para sua feature ou correção de bug (`git checkout -b feature/nova-feature`).
-3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
-4. Envie para o branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
+1. Fork this repository.
+2. Create a branch for your feature or bug fix (`git checkout -b feature/new-feature`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a Pull Request.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
-Esperamos que este projeto seja útil e que você possa aprender e contribuir com ele. Se você tiver alguma dúvida, sinta-se à vontade para abrir uma issue ou entrar em contato.
+We hope this project is useful and that you can learn and contribute to it. If you have any questions, feel free to open an issue or contact us.
 
-Boas análises e boas previsões!
+Happy analyzing and predicting!
 
+# Data Dictionary
 
+## Description:
+This comprehensive dataset provides detailed information on road accidents reported over several years. The dataset encompasses various attributes related to accident status, vehicle and casualty references, demographics, and casualty severity. It includes essential factors such as pedestrian details, casualty types, road maintenance worker involvement, and the Index of Multiple Deprivation (IMD) decile for the casualties' residential areas.
 
-# DICIONARIO DE DADOS
+## Columns:
 
-## Descrição:
-Este conjunto de dados abrangente fornece informações detalhadas sobre acidentes rodoviários comunicados ao longo de vários anos. O conjunto de dados engloba vários atributos relacionados ao status do acidente, referências de veículos e vítimas, demografia e gravidade das vítimas. Ele inclui fatores essenciais, como detalhes do pedestre, tipos de vítimas, envolvimento do trabalhador de manutenção de estradas e o decil do Índice de Privação Múltipla (IMD) para as áreas de residência das vítimas.
-
-# Colunas:
-
-**Status**: O status do acidente (por exemplo, relatado, sob investigação)
-
-**Accident_Index**: Um identificador exclusivo para cada acidente relatado
-
-**Accident_Year**: O ano em que ocorreu o acidente
-
-**Accident_Reference**: Um número de referência associado ao acidente
-
-**Vehicle_Reference**: Um número de referência para o veículo envolvido no acidente
-
-**Casualty_Reference**: Um número de referência para a vítima envolvida no acidente
-
-**Casualty_Class**: Indica a classe da vítima (por exemplo, motorista, passageiro, pedestre)
-
-**Sex_of_Casualty**: O sexo da vítima (masculino ou feminino)
-
-**Age_of_Casualty**: A idade da vítima
-
-**Age_Band_of_Casualty**: Faixa etária à qual a vítima pertence (por exemplo, 0-5, 6-10, 11-15)
-
-**Casualty_Severity**: A gravidade dos ferimentos da vítima (por exemplo, fatal, grave, leve)
-
-**Pedestrian_Location**: A localização do pedestre no momento do acidente
-
-**Pedestrian_Movement**: O movimento do pedestre durante o acidente
-
-**Car_Passenger**: Indica se a vítima era passageira de carro no momento do acidente (sim ou não)
-
-**Bus_or_Coach_Passenger**: Indica se a vítima foi passageira de ônibus (sim ou não)
-
-**Pedestrian_Road_Maintenance_Worker**: Indica se o acidentado foi um trabalhador de manutenção de estradas (sim ou não)
-
-**Casualty_Type**: O tipo de vítima (por exemplo, motorista/motociclista, passageiro, pedestre)
-
-**Casualty_Home_Area_Type**: O tipo de área em que a vítima reside (por exemplo, urbana, rural)
-
-**Casualty_IMD_Decile**: O decil IMD da área onde a vítima reside (uma medida de privação)
-
-**LSOA_of_Casualty**: A Área de Super Saída de Camada Inferior (LSOA) associada à localização da vítima
+- **Status**: The status of the accident (e.g., reported, under investigation)
+- **Accident_Index**: A unique identifier for each reported accident
+- **Accident_Year**: The year the accident occurred
+- **Accident_Reference**: A reference number associated with the accident
+- **Vehicle_Reference**: A reference number for the vehicle involved in the accident
+- **Casualty_Reference**: A reference number for the casualty involved in the accident
+- **Casualty_Class**: Indicates the class of the casualty (e.g., driver, passenger, pedestrian)
+- **Sex_of_Casualty**: The sex of the casualty (male or female)
+- **Age_of_Casualty**: The age of the casualty
+- **Age_Band_of_Casualty**: The age band to which the casualty belongs (e.g., 0-5, 6-10, 11-15)
+- **Casualty_Severity**: The severity of the casualty's injuries (e.g., fatal, serious, slight)
+- **Pedestrian_Location**: The location of the pedestrian at the time of the accident
+- **Pedestrian_Movement**: The movement of the pedestrian during the accident
+- **Car_Passenger**: Indicates if the casualty was a car passenger at the time of the accident (yes or no)
+- **Bus_or_Coach_Passenger**: Indicates if the casualty was a bus or coach passenger (yes or no)
+- **Pedestrian_Road_Maintenance_Worker**: Indicates if the casualty was a road maintenance worker (yes or no)
+- **Casualty_Type**: The type of casualty (e.g., driver/rider, passenger, pedestrian)
+- **Casualty_Home_Area_Type**: The type of area where the casualty resides (e.g., urban, rural)
+- **Casualty_IMD_Decile**: The IMD decile of the area where the casualty resides (a measure of deprivation)
+- **LSOA_of_Casualty**: The Lower Super Output Area (LSOA) associated with the casualty's location
 
 > [!NOTE]
->Este conjunto de dados fornece informações valiosas para analisar acidentes rodoviários, identificar tendências e implementar medidas de segurança para reduzir vítimas e melhorar a segurança rodoviária. Pesquisadores, formuladores de políticas e analistas podem aproveitar esse conjunto de dados para a tomada de decisões baseadas em evidências e melhorar os sistemas gerais de transporte rodoviário.
+> This dataset provides valuable information for analyzing road accidents, identifying trends, and implementing safety measures to reduce casualties and improve road safety. Researchers, policymakers, and analysts can leverage this dataset for evidence-based decision-making and enhance overall road transport systems.
